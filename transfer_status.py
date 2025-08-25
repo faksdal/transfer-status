@@ -137,9 +137,8 @@ def _print_matrix(headers: Sequence[str], rows: Sequence[Sequence[str]]) -> None
 
     # Data
     for r in rows:
-        # cell = r[1].get_text(strip=True)
-        if("ns" in r[1].lower() or "nn" in r[1].lower()):
-            print(fmt_row(r))
+        #if("ns" in r[1].lower() or "nn" in r[1].lower()):
+        print(fmt_row(r))
 
 
 def main(argv: Sequence[str] | None = None) -> int:
