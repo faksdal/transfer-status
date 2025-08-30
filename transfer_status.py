@@ -1,3 +1,5 @@
+#! .venv/bin/python3
+
 # file: transfer_status.py
 
 from __future__ import annotations
